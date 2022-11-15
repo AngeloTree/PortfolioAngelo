@@ -1,5 +1,7 @@
 const Projects = () => {
-    return ( console.log('test') );
+    return ( 
+        <p>Projects</p>
+     );
 }
  
 export default Projects;

@@ -1,5 +1,7 @@
 const Experience = () => {
-    return ( console.log('test') );
+    return ( 
+        <p>Experience</p>
+     );
 }
  
 export default Experience;
