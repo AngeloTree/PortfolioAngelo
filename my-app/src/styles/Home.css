@@ -52,15 +52,20 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .skills h1 {
-  color: #637095;
+  color: #a6df96;
 }
 
 .skills .list {
   list-style: none;
   width: 50%;
+}
+
+.item {
+  color: #70706f;
 }
 
 .list span {
