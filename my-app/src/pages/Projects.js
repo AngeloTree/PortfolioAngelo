@@ -1,15 +1,16 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
-import ethblox from "../assets/ethblox.png";
 import "../styles/Projects.css";
+import { ProjectList } from "../helpers/ProjectList";
 
 const Projects = () => {
   return (
     <div className="projects">
       <h1>Personal Projects</h1>
       <div className="projectList">
-        <ProjectItem name="HACKFS Hackathon 2021" image={ethblox} />
-        <ProjectItem />
+        {ProjectList.map((project) => {
+          return <ProjectItem name={project.name} image={project.image} />;
+        })}
       </div>
     </div>
   );
