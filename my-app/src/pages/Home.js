@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Angelo</h2>
+        <h2 className="hover-1"> Hi, My Name is Angelo</h2>
         <div className="prompt">
           <p>A software developer with a pasion for learning and creating.</p>
           <div className="prompt-holder">
