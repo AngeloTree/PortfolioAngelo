@@ -1,5 +1,6 @@
 import ethblox from "../assets/ethblox.png";
 import Breed from "../assets/Breed.jpg";
+import Message from "../assets/MessagingApp.png";
 
 export const ProjectList = [
   {
@@ -13,5 +14,11 @@ export const ProjectList = [
     image: Breed,
     skills: "JavaScript, HTML, CSS, React",
     link: "https://github.com/AngeloTree/DogSearch",
+  },
+  {
+    name: "Messaging App",
+    image: Message,
+    skills: "JavaScript, HTML, CSS, React, PostgreSQL",
+    link: "https://github.com/AngeloTree/MessagingApp",
   },
 ];
